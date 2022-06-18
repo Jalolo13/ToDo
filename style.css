@@ -1,0 +1,136 @@
+body {
+  background: #6f27e2a1;
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.add-todo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: orange;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.input-wrapper {
+  margin-right: 40px;
+  width: 100%;
+}
+
+#description-task {
+  height: 30px;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 6px;
+  background: #9aadff;
+  border: 1px solid black;
+}
+
+#add-task-btn {
+  background: #b2e94b;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+#add-task-btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: #1eff00;
+}
+
+#add-task-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.todo-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: orange;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.todo-item.checked {
+  background: darkgray;
+  opacity: 0.5;
+}
+
+.description {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-complete {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.btn-delete {
+  background: #b30909;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: red;
+}
+
+.btn-delete:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=style.css.map */
